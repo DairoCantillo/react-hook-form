@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  background-color: #ac2d5e;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  border-bottom: 10px solid #20dad8;
+  &_nav {
+    ul {
+      display: flex;
+
+      li {
+        margin: 5px 10px;
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: white;
+          transition: 0.4s;
+        }
+        a:hover {
+          color: #20dad8;
+        }
+      }
+    }
+  }
+}
